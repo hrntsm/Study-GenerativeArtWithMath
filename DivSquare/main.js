@@ -13,8 +13,8 @@ let col;
 let wd;
 
 function setup() {
-  createCanvas(700, 700);
-  wd = windowWidth
+  createCanvas(windowWidth, windowHeight);
+  wd = windowWidth;
 }
 
 function draw() {
@@ -40,4 +40,12 @@ function draw() {
       wd = windowWidth - yPos;
     }
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  wd = windowWidth;
+  xPos = 0;
+  yPos = 0;
+  itr = 0;
 }
