@@ -4,3 +4,11 @@
 
 本のリンク  
 [数学から創るジェネラティブアート](https://gihyo.jp/book/2019/978-4-297-10463-4)
+
+## result
+
++ DivRect
+![DivRect](./DivRect/result.png)
+
++ DivRectColor
+![DivRectColor](./DivRectColor/result.png)
